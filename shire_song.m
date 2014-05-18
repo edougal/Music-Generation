@@ -82,7 +82,7 @@ s = [];
 
 for i = 1:length(n)
 
-    f1 = note(n{i},fs,3,t(i),octave(i));
+    f1 = flute(n{i},fs,3,t(i),octave(i));
     s = [s f1];
 
 end

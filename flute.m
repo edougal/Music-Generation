@@ -7,7 +7,7 @@
 
 
 
-function s = note(pitch,fs,duration,quarter,octave)
+function s = flute(pitch,fs,duration,quarter,octave)
 
 mult = 2^(octave-4);
 

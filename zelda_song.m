@@ -41,13 +41,9 @@ octave = data(2,:);
 fs = 100000;
 s = [];
 
-%length(n)
-%length(t)
-%length(octave)
-
 for i = 1:length(n)
 
-    s = [s note(n{i},fs,2,t(i),octave(i))];
+    s = [s flute(n{i},fs,2,t(i),octave(i))];
 
 end
  
